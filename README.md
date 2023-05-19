@@ -2,8 +2,7 @@
 An application to generate random passwords, based on a user's submitted parameters.
 
 
-
-**Application Criteria:**
+<br/>**Application Criteria:**
 - WHEN I click the button to generate a password
     
     THEN I am presented with a series of prompts for password criteria
@@ -24,8 +23,6 @@ An application to generate random passwords, based on a user's submitted paramet
     THEN a password is generated that matches the selected criteria
 - WHEN the password is generated
     
-    THEN the password is either displayed in an alert or written to the page
+    THEN the password is either displayed in an alert or written to the page<br/>
 
-
-
-Starter code from [coding-boot-camp/friendly-parakeet](https://github.com/coding-boot-camp/friendly-parakeet).
+<br/>Starter code from [coding-boot-camp/friendly-parakeet](https://github.com/coding-boot-camp/friendly-parakeet).<br/>
