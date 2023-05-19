@@ -9,12 +9,16 @@ var specialCharacters = ["~", "!", "@", "#", "$", "%", "^", "&", "*", "-", "_", 
 
 
 //select criteria to include
-("Waht criteria wuld you like to include in your password?")
+prompt("What criteria wuld you like to include in your password?")
 
 //select length of password
 passwordLength = ("What length would you like for your password?")
+if(passwordLength < 8 || > 128) {
+  prompt("Number entered doesn't meet criteria. Password length must be at least 8 characters and no more than 128 charaacters.");
+  passwordLength = prompt("What length would you like for your password?");
+}
 //select character types to include
-("What character types are needed in your password?")
+prompt("What character types are needed in your password?")
 
 //validate input & select needed character type
 
