@@ -1,6 +1,8 @@
 # Password Generator
 An application to generate random passwords, based on a user's submitted parameters.
 
+
+
 **Application Criteria:**
 - WHEN I click the button to generate a password
     
@@ -23,6 +25,7 @@ An application to generate random passwords, based on a user's submitted paramet
 - WHEN the password is generated
     
     THEN the password is either displayed in an alert or written to the page
+
 
 
 Starter code from [coding-boot-camp/friendly-parakeet](https://github.com/coding-boot-camp/friendly-parakeet).
